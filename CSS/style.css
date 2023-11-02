@@ -95,6 +95,11 @@ a{
     transition: transform 0.3s ease-in-out;
 }
 
+.card>a{
+    color: white;
+}
+
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -129,6 +134,15 @@ a{
 .inception>h1{
     padding-top: 3%;
     font-size: 3rem;
+}
+
+.help>a{
+    color: white;
+}
+
+.help{
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 .top-container{
@@ -307,6 +321,10 @@ a{
 
    .tube{
         top: 40%;
+   }
+
+   .help{
+    display: block
    }
 
    .mushroom{

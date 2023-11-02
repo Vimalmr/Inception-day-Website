@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Your JavaScript code here
     document.getElementById('tube').addEventListener('click', function() {
         playClickSound();
     });
@@ -9,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         audio.play();
     }
 });
-const targetDate = new Date("2023-11-09 23:59:59").getTime();
+const targetDate = new Date("2023-11-06 23:59:59").getTime();
 
         // Update the countdown every second
         const countdown = setInterval(function () {
